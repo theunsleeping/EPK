@@ -1,0 +1,25 @@
+.Main {
+  .generalInfo {
+    max-width: 990px;
+    margin: 0 auto;
+    span {
+      font-size: 1.5rem;
+    }
+    .links {
+      font-size: 1.2rem;
+      display: flex;
+      gap: 10px;
+    }
+    p {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.3rem;
+    }
+  }
+  .mainImg--container {
+    width: 100%;
+    img {
+      width: 100%;
+      //visibility: hidden;
+    }
+  }
+}

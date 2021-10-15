@@ -1,0 +1,32 @@
+.Releases {
+  h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  .releases-list {
+    display: flex;
+    flex-direction: column;
+    .ReleaseItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      img {
+        align-self: center;
+      }
+      .release-links {
+        display: flex;
+        justify-content: space-evenly;
+        padding: .6em;
+        a {
+          //text-decoration: none;
+          font-family: 'Oswald', sans-serif;
+          color: #000;
+          display: block;
+        }
+      }
+    }
+  }
+}
